@@ -1,0 +1,14 @@
+apiVersion: demo.my.domain/v1
+kind: DemoVolume
+metadata:
+  labels:
+    app.kubernetes.io/name: demovolume
+    app.kubernetes.io/instance: demovolume-sample
+    app.kubernetes.io/part-of: kubeoperator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: kubeoperator
+  name: demovolume-sample
+spec:
+  name: test
+  size: 10
+  test: jevgenijtesting
